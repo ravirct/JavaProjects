@@ -10,6 +10,7 @@ public class StringReplace {
 			if(word.equalsIgnoreCase("the")){
 				word="2";
 			}else if (word.equalsIgnoreCase("a")) {
+				word.equals(word);
 				word="1";
 			}else if (word.equalsIgnoreCase("Anupama")) {
 				
